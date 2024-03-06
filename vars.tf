@@ -13,6 +13,7 @@ variable "max_size" {}
 variable "min_siz" {}
 variable "alb_name" {}
 variable "listener" {}
+variable "lb_priority" {}
 
 
 
