@@ -11,6 +11,8 @@ variable "instance_type" {}
 variable "desired_capacity" {}
 variable "max_size" {}
 variable "min_siz" {}
+variable "alb_name" {}
+
 
 
 
