@@ -130,7 +130,7 @@ resource "aws_lb_listener_rule" "public" {
 
   condition {
     host_header {
-      values = ["${var.env}.vdevopd562.online"]
+      values = ["${var.env}.vdevops562.online"]
     }
   }
 }
